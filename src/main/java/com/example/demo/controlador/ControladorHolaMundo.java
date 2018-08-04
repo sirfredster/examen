@@ -8,7 +8,7 @@ public class ControladorHolaMundo {
 
     @RequestMapping(value = "/saludar/{nombre}", method = RequestMethod.GET)
     public @ResponseBody String saludar(@PathVariable("nombre") String nombre) {
-        return "Hola";
+        return "Hola Mundo";
     }
 
 }
